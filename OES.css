@@ -1,0 +1,24 @@
+.c1{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+  }
+  .c2{
+    background-image: url(bg3.jfif);
+    background-size: cover;
+  }
+  .c3{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+  }
+  .c4{
+    background-image: url(bg6.jpg);
+    background-size: cover;
+  }
+    .a{color: aquamarine;background-color: rgba(0, 0, 0, 0.849);}
+    .b{color: darkcyan;background-color: antiquewhite;}  
+    .c{color: rgb(22, 247, 60);background-color: rgb(100, 164, 237);}
+    .d{color: crimson;}
+    .e{color: deepskyblue;}
+    .f{color: rgb(218, 144, 236);}
+    .g{color: rgba(15, 236, 225, 0.884);}
+    

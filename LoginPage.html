@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="OES.css">
+    <title>Login Page</title>
+    <script>
+      function onSub() {
+        var feed = document.getElementById("ID").value;
+        if(feed==""){
+          window.alert("Enter your ID");
+        }
+      }
+    </script>
+</head>
+<body class="c1">
+      <form>
+        <label class="a"><b><em><marquee direction="right">Welcome To Login Page</marquee></label></b></em>
+          <fieldset><center>
+          <label class="a"><b>Login Id: <input type="textbox" name="Login Id" value="" id="ID"><br><br></label></b>
+          <label class="a"><b>Password: <input type="password" name="Password" value=""><br><br></label></b>
+          <label class="a"><b><input type="submit" value="Check" onclick="onSub()"><br><br></label></b>
+          <label class="a"><b><input type="reset"><br><br></label></b>
+            <em><b><a href="Forgot Password.html"><label class="a">Forgot Password?</label></a></b></em><br><br>
+            <em><b><a href="index.php"><label class="a">Sign-up?</label></a></b></em><br><br>
+            <em><b><a href="Question1.html"><label class="a">Submit</label></a></b></em>
+          </center></fieldset>
+      </form>
+</body>
+</html>
